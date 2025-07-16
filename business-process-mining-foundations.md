@@ -184,7 +184,7 @@ Legacy systems, custom processes.
 
 ---
 
-## Phase 6: SAP Signavio Analytics Language (SiGNAL) — Compressed Summary
+## Phase 6: SAP Signavio Analytics Language (SiGNAL)
 
 **Purpose:**  
 SiGNAL is SAP Signavio Process Intelligence's SQL-inspired query language, optimized for large-scale process mining analyses. It supports read-only queries for conformance checking, cycle time, and rework analysis.
@@ -206,24 +206,9 @@ SiGNAL is SAP Signavio Process Intelligence's SQL-inspired query language, optim
 - Case attributes: Customer ID, Status, City (fixed per case).  
 - Event attributes: Payment Method, Cancellation Reason (vary by event).
 
-### Data Table Example:
+### Table Example:
 
-| case_ID | Customer ID | Status    | Stadt   | Ereignisse                            |
-|---------|-------------|-----------|---------|--------------------------------------|
-| 1001    | 2001        | delivered | Berlin  |                                      |
-
-| event_name            | end_time              | Zahlweg      | Stornogrund    |
-|----------------------|----------------------|--------------|----------------|
-| Receive customer order | 2020-07-01T09:00:00 |              |                |
-| Zahlung erhalten      | 2020-07-02T10:00:00 | Überweisung  |                |
-| Waren versenden       | 2020-07-03T11:00:00 |              |                |
-
-| 1002    | 2002        | canceled  |         |                                      |
-
-| event_name            | end_time              | Zahlweg      | Stornogrund    |
-|----------------------|----------------------|--------------|----------------|
-| Receive customer order | 2020-07-04T13:00:00 |              |                |
-| Auftrag stornieren    | 2020-07-04T14:00:00 |              | Falsche Größe  |
+<img width="843" height="569" alt="image" src="https://github.com/user-attachments/assets/06141c45-193d-4db0-b072-3e7270ee6b5c" />
 
 ---
 
