@@ -180,4 +180,56 @@ Legacy systems, custom processes.
 **Scheduling & Automation:**  
 - Scheduled Jobs: Automated extraction  
 - Data Refresh in SAP PI  
-- Tools: SAP DI Pipelines, SAP BTP Services  
+- Tools: SAP DI Pipelines, SAP BTP Services
+
+---
+
+## Phase 6: Understand Core Business Processes
+
+### Procure-to-Pay (P2P)  
+1. Create Purchase Requisition  
+2. Approve Requisition  
+3. Create Purchase Order  
+4. Send to Supplier  
+5. Receive Goods  
+6. Receive Invoice  
+7. Pay Supplier  
+
+### Order-to-Cash (O2C)  
+1. Receive Customer Order  
+2. Check Credit  
+3. Create Sales Order  
+4. Deliver Goods/Services  
+5. Issue Invoice  
+6. Receive Payment  
+
+### Hire-to-Retire (H2R)  
+1. Recruit and Hire Employee  
+2. Onboarding  
+3. Manage Employment (Payroll, Benefits)  
+4. Performance Management  
+5. Offboarding/Retirement  
+
+### Issue-to-Resolution  
+1. Receive Customer Issue/Ticket  
+2. Categorize and Prioritize  
+3. Assign to Support Agent  
+4. Investigate and Resolve Issue  
+5. Close Ticket  
+6. Provide Feedback (Optional)  
+
+### Record-to-Report (R2R)  
+1. Record Financial Transactions  
+2. Reconcile Accounts  
+3. Close Period/Month-End  
+4. Generate Financial Statements  
+5. Report to Stakeholders  
+
+### Plan-to-Fulfill (P2F)  
+1. Demand Planning  
+2. Supply Planning  
+3. Production Scheduling  
+4. Manufacturing/Assembly  
+5. Quality Control  
+6. Delivery/Shipment  
+
