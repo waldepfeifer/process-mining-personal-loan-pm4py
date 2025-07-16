@@ -186,7 +186,11 @@ Legacy systems, custom processes.
 
 ## Phase 6: Understand Core Business Processes
 
-### Procure-to-Pay (P2P)  
+---
+
+### Procurement  
+
+#### Procure-to-Pay (P2P)  
 1. Create Purchase Requisition  
 2. Approve Requisition  
 3. Create Purchase Order  
@@ -195,7 +199,59 @@ Legacy systems, custom processes.
 6. Receive Invoice  
 7. Pay Supplier  
 
-### Order-to-Cash (O2C)  
+#### Source-to-Contract (S2C)  
+1. Identify Sourcing Needs  
+2. Supplier Discovery  
+3. Request for Proposal (RFP)/Quotation  
+4. Negotiate Terms  
+5. Contract Creation  
+6. Contract Approval and Storage  
+
+#### Supplier Relationship Management (SRM)  
+1. Supplier Onboarding  
+2. Monitor Supplier Performance  
+3. Conduct Supplier Audits  
+4. Manage Supplier Compliance  
+5. Develop Supplier Improvement Plans  
+
+---
+
+### Supply Chain  
+
+#### Plan-to-Fulfill (P2F)  
+1. Demand Planning  
+2. Supply Planning  
+3. Production Scheduling  
+4. Manufacturing/Assembly  
+5. Quality Control  
+6. Delivery/Shipment  
+
+#### Inventory Management  
+1. Stock Level Monitoring  
+2. Replenishment Planning  
+3. Safety Stock Management  
+4. Inventory Auditing  
+5. Inventory Adjustment  
+
+#### Warehouse Management (WM)  
+1. Goods Receipt  
+2. Putaway  
+3. Picking  
+4. Packing  
+5. Shipping  
+
+#### Logistics Execution  
+1. Transportation Planning  
+2. Freight Booking  
+3. Goods Dispatch  
+4. Track and Trace  
+5. Goods Receipt Confirmation  
+
+---
+
+### Sales and Customer Service  
+
+#### Order-to-Cash (O2C)  
 1. Receive Customer Order  
 2. Check Credit  
 3. Create Sales Order  
@@ -203,14 +259,7 @@ Legacy systems, custom processes.
 5. Issue Invoice  
 6. Receive Payment  
 
-### Hire-to-Retire (H2R)  
-1. Recruit and Hire Employee  
-2. Onboarding  
-3. Manage Employment (Payroll, Benefits)  
-4. Performance Management  
-5. Offboarding/Retirement  
-
-### Issue-to-Resolution  
+#### Issue-to-Resolution  
 1. Receive Customer Issue/Ticket  
 2. Categorize and Prioritize  
 3. Assign to Support Agent  
@@ -218,18 +267,62 @@ Legacy systems, custom processes.
 5. Close Ticket  
 6. Provide Feedback (Optional)  
 
-### Record-to-Report (R2R)  
+---
+
+### Finance  
+
+#### Record-to-Report (R2R)  
 1. Record Financial Transactions  
 2. Reconcile Accounts  
 3. Close Period/Month-End  
 4. Generate Financial Statements  
 5. Report to Stakeholders  
 
-### Plan-to-Fulfill (P2F)  
-1. Demand Planning  
-2. Supply Planning  
-3. Production Scheduling  
-4. Manufacturing/Assembly  
-5. Quality Control  
-6. Delivery/Shipment  
+#### Treasury-to-Pay (T2P)  
+1. Manage Cash and Liquidity  
+2. Execute Payments  
+3. Monitor Payment Status  
+4. Reconcile Bank Statements  
+
+---
+
+### Human Resources  
+
+#### Hire-to-Retire (H2R)  
+1. Recruit and Hire Employee  
+2. Onboarding  
+3. Manage Employment (Payroll, Benefits)  
+4. Performance Management  
+5. Offboarding/Retirement  
+
+#### Learning and Development  
+1. Identify Training Needs  
+2. Design Training Programs  
+3. Conduct Training Sessions  
+4. Evaluate Training Effectiveness  
+
+#### Payroll Processing  
+1. Collect Time and Attendance Data  
+2. Calculate Payroll  
+3. Process Deductions and Taxes  
+4. Distribute Payslips  
+5. Report to Authorities  
+
+---
+
+### IT & Compliance  
+
+#### Access-to-Authorization  
+1. Request User Access  
+2. Approve Access Rights  
+3. Assign Roles and Permissions  
+4. Monitor Access Logs  
+5. Revoke Access When Needed  
+
+#### Compliance Monitoring  
+1. Define Compliance Rules  
+2. Monitor Transactions  
+3. Flag Violations  
+4. Conduct Audits  
+5. Report Compliance Status  
 
