@@ -184,7 +184,78 @@ Legacy systems, custom processes.
 
 ---
 
-## Phase 6: Understand Core Business Processes
+## Phase 6: SAP Signavio Analytics Language (SiGNAL) — Compressed Summary
+
+**Purpose:**  
+SiGNAL is SAP Signavio Process Intelligence's SQL-inspired query language, optimized for large-scale process mining analyses. It supports read-only queries for conformance checking, cycle time, and rework analysis.
+
+---
+
+**Core Concept:**  
+- Single nested table: case attributes + nested events.  
+- SQL-like syntax (SELECT, WHERE, GROUP BY, ORDER BY).  
+- Read-only: no update/delete commands.
+
+---
+
+**Data Model:**  
+- Mandatory fields:  
+  - case_ID  
+  - event_name  
+  - end_time  
+- Case attributes: Customer ID, Status, City (fixed per case).  
+- Event attributes: Payment Method, Cancellation Reason (vary by event).
+
+### Data Table Example:
+
+| case_ID | Customer ID | Status    | Stadt   | Ereignisse                            |
+|---------|-------------|-----------|---------|--------------------------------------|
+| 1001    | 2001        | delivered | Berlin  |                                      |
+
+| event_name            | end_time              | Zahlweg      | Stornogrund    |
+|----------------------|----------------------|--------------|----------------|
+| Receive customer order | 2020-07-01T09:00:00 |              |                |
+| Zahlung erhalten      | 2020-07-02T10:00:00 | Überweisung  |                |
+| Waren versenden       | 2020-07-03T11:00:00 |              |                |
+
+| 1002    | 2002        | canceled  |         |                                      |
+
+| event_name            | end_time              | Zahlweg      | Stornogrund    |
+|----------------------|----------------------|--------------|----------------|
+| Receive customer order | 2020-07-04T13:00:00 |              |                |
+| Auftrag stornieren    | 2020-07-04T14:00:00 |              | Falsche Größe  |
+
+---
+
+**Iteration Options:**  
+- By Case → 1 row per case, nested events table  
+- By Event → 1 row per event, repeating case attributes  
+
+---
+
+**SiGNAL Usage Overview:**  
+- Query structure: SELECT, WHERE, GROUP BY, ORDER BY  
+- Optimized for KPIs like cycle time, conformance rate  
+- Handles nested data directly  
+
+**Example Query:**  
+SELECT variant, COUNT(*)  
+FROM event_log  
+GROUP BY variant  
+ORDER BY COUNT(*) DESC  
+LIMIT 10;
+
+---
+
+**Key Takeaways:**  
+- Case + Event attributes structure  
+- SQL-like querying but adapted for nested event logs  
+- Focused on process mining KPIs  
+- Used directly inside SAP Signavio PI  
+
+---
+
+## Phase 7: Understand Core Business Processes
 
 ---
 
